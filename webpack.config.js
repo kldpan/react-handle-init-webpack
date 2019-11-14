@@ -90,7 +90,7 @@ module.exports={
     devServer: {
         // 配置主机 
         host:"0.0.0.0",
-        port:"8899",
+        port:"8888",
         proxy:{
             '/apis': { //url里面要拼接进去
                 target:"https://cnodejs.org" , // 需要代理接口域名
